@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    background: rgb(6, 37, 197);
+    height: 1000px;
+    width: auto;
+    font-family: 'Sunflower', sans-serif;
+  
+}
+header{
+    padding-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+ 
+}
+.top-Logo{
+    height: 64px;
+    width: 64px; 
+}
+nav{
+    color: white;
+    display: flex;
+}
+
+nav p{
+    padding-top: 20px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 13px; 
+    font-family: 'Sunflower', sans-serif;
+}
+.subscribe {
+    color: white;
+    background-color: rgb(6, 37, 197);
+    height: 42px;
+    width: 117px;
+    border-radius: 21px;
+}
+.logo {
+    width: 70px;
+    height: auto;
+    border: 2px solid salmon;
+    margin: auto;
+}
+.content {
+    color:white;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.content p {
+    margin: auto;
+    width: 670px;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    
+
+}
+.content h1 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 56px;
+    letter-spacing: 10px;
+}
+.explore {
+    height: 56px;
+    width: 194px;
+    border-radius: 27px;
+    color: blue;
+    font-size: 1.2333em;
+    margin: 10px auto;
+}
+.scroll-line{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid white;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 100;
+    
+}
+.scroll{
+    margin-top: 220px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.scroll p {
+    margin: auto;
+    width: 670px;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;
+}
